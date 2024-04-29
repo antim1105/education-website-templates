@@ -1,0 +1,204 @@
+/* @media screen and (max-width:600px){
+    #course1 .cors
+    {
+        background-color: royalblue;
+        width: calc(60% - 20px);
+    }
+    
+#course1 .cors img{
+    width: 100%;
+    height: 50%;
+  }
+  #course1 .cors .cost {
+    line-height: 25px;
+    font-size: 1vmax;
+}
+} */
+
+@media screen and (max-width:800px) {
+    .menu{
+      display: flex;
+      position: absolute;
+      font-weight: bold;
+      top: 12px;
+       right: 12px;
+      font-size: 30px;
+    }
+   ul{
+     list-style-type: none;
+   }
+      .introbox{
+         display: inline-block;
+      }
+     .left h2{
+         margin-top: 1%;
+     }
+     .left{
+         max-width: 90vw;
+     }
+ 
+ 
+ 
+     #course1 .cors
+     {
+         /* background-color: brown; */
+         margin-left: 3vw;
+         width: calc(45% - 20px);
+     }
+     #course1 .cors .cost {
+         line-height: 37px;
+         font-size: 1vmax;
+     }
+ #course1 .cors img{
+     width: 100%;
+     height: 50%;
+   } 
+     
+ .slider il {
+     width: 52%;
+ }
+ .right img {
+     width: 112%;
+ }
+
+ .container {
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 0.8rem;
+     font-weight: bold;
+     padding: 0;
+ }
+ .container ul{
+     padding: 0;
+     width: 753px;
+ }
+ .container ul  li{
+     width: 48%;
+     height: 214px;
+ }
+ .container1{     
+    width: 45vw;
+}
+.accordion a {
+    width: 50%;
+}
+ }
+ 
+ 
+ @media screen and (max-width:700px) {
+ 
+ .o .navbar.active{
+   clip-path: circle(144% at 0% 0%);
+ }
+ 
+ .o .navbar{
+    display: flex;
+    clip-path: circle(0% at 0% 0%);
+    flex-direction: column;
+    background-color: azure;
+      row-gap: 0.5rem;
+      top: 53%;
+      width: 90vw;
+      transition: 1s;
+    position: absolute;
+
+ }
+ .o li a{
+    padding: 5% 18px;
+    display: block;
+ }
+ .o li a:hover{
+    border-bottom: none;
+    background: royalblue;
+    color: white;
+ }
+    .lan-card{
+        width: 28%;
+    height: 18vh;
+}
+   .row{
+     background-size:contain;
+   }
+    .lan-card:active
+    {
+        box-shadow:0 1px 3px royalblue;
+    }
+ .menu{
+      display: flex;
+      position: absolute;
+      font-weight: bold;
+      top: -1px;
+      padding: 12px;
+     
+       right: 12px;
+      font-size: 30px;
+    }
+   
+     #course1{
+         /* background-color: rosybrown; */
+     }
+     #course1 .cors
+     {
+         /* background-color: royalblue; */
+         width: calc(50% - 20px);
+     }
+     .container {
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 0.6rem;
+     font-weight: 400;
+     padding: 0;
+ }
+ .container ul{
+     padding: 0;
+        width: 94vmin;
+ }
+ .container ul li{
+     width: 48%;
+ }
+ #course1 .cors img{
+     width: 100%;
+     height: 50%;
+   }
+   #course1 .cors .cost {
+     line-height: 25px;
+     font-size: 1vmax;
+ }
+.container1{     
+    width: 50vw;
+}
+.accordion a {
+    width: 69%;
+}
+
+ }
+ 
+ 
+ 
+ 
+ 
+ @media (min-width:1300px) and (max-width:2000px){
+ 
+ /* 
+        .left{
+         font-size: 1.4em;
+         width: 462px;
+     }
+     .right img {
+     max-width: 600px;
+ } */
+ 
+     #course1 .cors
+     {
+         gap: 1px;
+         margin-left: 1px;
+     }
+     
+    
+ #course1 .course-box{
+     gap: 4px;
+    margin-left: 12px;   
+ }
+ .row{
+     height: 32vw;
+   
+ }
+ }
